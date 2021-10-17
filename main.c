@@ -547,8 +547,5 @@ int main() {
     printf("Enter choice variant: ");
     scanf("%d",&choice);
     add_file(size,choice);
-    //read_file_shell("test.txt");
     read_file_tokuda("test.txt");
-    //read_file_ciura("test.txt");
-    //read_file_Sedgewick_6("test.txt");
 }
